@@ -1,0 +1,50 @@
+.listcontouter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 22px;
+  color: #00e7ff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  width: 80%;
+  min-height: 100%;
+  padding: 20px;
+}
+.listcont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: #00e7ff 5px solid;
+  border-radius: 5px;
+  width: 100%;
+}
+.listcontuppertab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  background-color: #092e33;
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.aligner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.orgcont {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: none;
+}

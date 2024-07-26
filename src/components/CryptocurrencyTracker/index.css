@@ -1,0 +1,19 @@
+.outercont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+.loader{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
